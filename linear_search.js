@@ -2,7 +2,12 @@
 let linearSearch = (target, values) => {
 
     //write your code here
-    return values.indexOf(target);
+    for(var i = 0; i < values.length; i++) {
+        if (target == values[i]) {
+            return i;
+        }
+    }
+    return -1;
 }
 
 let random_numbers = [ 6, 29, 18, 2, 72, 19, 18, 10, 37 ];
