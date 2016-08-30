@@ -15,6 +15,7 @@ console.log(linearSearch(18, random_numbers));
 // => 2
 console.log(linearSearch(9, random_numbers));
 
+
 // Release 1
 let globalLinearSearch = (target, values) => {
   //write your code here
